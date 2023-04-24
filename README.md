@@ -8,4 +8,4 @@ aVRage Paths is a toolkit developed for VR researchers.
 
 # How to view documentation
 1. Clone the repository
-2. Open `index.html` in the "Doxygen" folder
+2. Open `index.html` in the "docs" folder
