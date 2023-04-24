@@ -1,0 +1,48 @@
+.menuButton {
+    -unity-text-align: middle-left;
+    height: 33%;
+    font-size: 50px;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Bold%20font.ttf?fileID=12800000&guid=c418a12bda026434a9eb281a99a89031&type=3#Futura Bold font');
+    color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    padding-left: 0;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+}
+
+.menuButton:hover {
+    background-color: rgba(212, 212, 212, 0.05);
+    color: rgb(255, 255, 255);
+    transition-property: -unity-slice-right;
+    transition-duration: 5s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s;
+    opacity: 1;
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Bold%20font.ttf?fileID=12800000&guid=c418a12bda026434a9eb281a99a89031&type=3#Futura Bold font');
+    -unity-font-definition: none;
+    font-size: 50px;
+    -unity-text-align: middle-left;
+}
+
+.menuButton:hover #selectorHoverPointer {
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-4528830608231651361&guid=6919a86361480074484ca9bc022bc793&type=3#arrow-left@2x');
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+}
+
+.menuButton:hover #selectorHoverBox {
+    background-image: none;
+    -unity-background-image-tint-color: rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+.buttonLabel {
+    padding-left: 2%;
+    margin-right: 5%;
+}

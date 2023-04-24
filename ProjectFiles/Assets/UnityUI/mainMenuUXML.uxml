@@ -1,0 +1,35 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UnityUI/mainMenuUSS.uss?fileID=7433441132597879392&amp;guid=c8c73f932e1c4084496ef9b25e603edf&amp;type=3#mainMenuUSS" />
+    <ui:IMGUIContainer name="backgroundGIF" style="flex-grow: 1; flex-direction: column-reverse; background-image: none;">
+        <ui:GroupBox name="menuContainer" style="-unity-text-align: middle-center; background-color: rgba(39, 91, 140, 0); width: 40%; height: 40%; margin-left: 1%; margin-right: 3%; margin-top: 3%; margin-bottom: 3%; flex-direction: column; flex-wrap: nowrap; padding-left: 0; padding-right: 0; padding-top: 3%; padding-bottom: 3%; border-left-width: 0; border-right-width: 0; border-top-width: 3px; border-bottom-width: 3px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); align-items: center; justify-content: center;">
+            <ui:Button display-tooltip-when-elided="true" name="createExperimentButton" enable-rich-text="true" class="menuButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; justify-content: space-between; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+                <ui:GroupBox name="groupBox" style="flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 70%; align-items: center; justify-content: flex-start; height: 100%;">
+                    <ui:VisualElement name="selectorHoverBox" style="height: 100%; width: 2%;" />
+                    <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="Create Experiment" class="buttonLabel" style="width: auto; -unity-text-align: middle-left; height: 100%; align-items: center; justify-content: center; white-space: nowrap;" />
+                </ui:GroupBox>
+                <ui:VisualElement name="selectorHoverPointer" style="height: 100%; width: 15%; justify-content: space-between; align-items: flex-start;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="loadExperimentButton" enable-rich-text="true" class="menuButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; justify-content: space-between; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+                <ui:GroupBox name="groupBox" style="flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 70%; align-items: center; justify-content: flex-start; height: 100%;">
+                    <ui:VisualElement name="selectorHoverBox" style="height: 100%; width: 2%;" />
+                    <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="Run Participant" class="buttonLabel" style="width: auto; -unity-text-align: middle-left; height: 100%; align-items: center; justify-content: center; white-space: nowrap;" />
+                </ui:GroupBox>
+                <ui:VisualElement name="selectorHoverPointer" style="height: 100%; width: 15%; justify-content: space-between; align-items: flex-start;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="mazePlaybackButton" enable-rich-text="true" class="menuButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; justify-content: space-between; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+                <ui:GroupBox name="groupBox" style="flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 70%; align-items: center; justify-content: flex-start; height: 100%;">
+                    <ui:VisualElement name="selectorHoverBox" style="height: 100%; width: 2%;" />
+                    <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="Maze Playback" class="buttonLabel" style="width: auto; -unity-text-align: middle-left; height: 100%; align-items: center; justify-content: center; white-space: nowrap;" />
+                </ui:GroupBox>
+                <ui:VisualElement name="selectorHoverPointer" style="height: 100%; width: 15%; justify-content: space-between; align-items: flex-start;" />
+            </ui:Button>
+            <ui:Button display-tooltip-when-elided="true" name="exitButton" enable-rich-text="true" class="menuButton" style="padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 100%; justify-content: space-between; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;">
+                <ui:GroupBox name="groupBox" style="flex-direction: row; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; width: 70%; align-items: center; justify-content: flex-start; height: 100%;">
+                    <ui:VisualElement name="selectorHoverBox" style="height: 100%; width: 2%;" />
+                    <ui:Label display-tooltip-when-elided="true" enable-rich-text="true" text="Exit" class="buttonLabel" style="width: auto; -unity-text-align: middle-left; height: 100%; align-items: center; justify-content: center;" />
+                </ui:GroupBox>
+                <ui:VisualElement name="selectorHoverPointer" style="height: 100%; width: 15%; justify-content: space-between; align-items: flex-start;" />
+            </ui:Button>
+        </ui:GroupBox>
+    </ui:IMGUIContainer>
+</ui:UXML>

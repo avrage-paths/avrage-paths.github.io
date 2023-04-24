@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:GroupBox name="InfoBox" class="infoBox" style="align-items: center;">
+        <ui:Label text="Time Elapsed:" display-tooltip-when-elided="true" style="align-items: center; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-bottom-width: 1px; justify-content: center;" />
+        <ui:Label text="2m 54s" display-tooltip-when-elided="true" />
+    </ui:GroupBox>
+</ui:UXML>

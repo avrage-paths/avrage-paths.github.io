@@ -1,0 +1,714 @@
+.sidebar {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(55, 55, 55, 0.91);
+    width: 20%;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.selectionMenu {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    height: 5%;
+}
+
+.navbar {
+    -unity-text-align: middle-left;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    background-color: rgb(38, 37, 37);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.navbarButton {
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Bold%20font.ttf?fileID=12800000&guid=c418a12bda026434a9eb281a99a89031&type=3#Futura Bold font');
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    -unity-text-align: middle-center;
+    font-size: 23px;
+    color: rgb(255, 255, 255);
+    width: 25%;
+    height: 90%;
+    background-color: rgba(255, 255, 255, 0);
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#returnToMainButton {
+    flex-direction: row;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#generateMazeButton {
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Bold%20font.ttf?fileID=12800000&guid=c418a12bda026434a9eb281a99a89031&type=3#Futura Bold font');
+    -unity-font-definition: none;
+    font-size: 35px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 18%;
+    height: 70%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-direction: row;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    align-items: center;
+    justify-content: center;
+    -unity-text-align: middle-center;
+}
+
+.bottomBar {
+    width: 100%;
+    height: 8%;
+    background-color: rgb(38, 37, 37);
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: row;
+}
+
+.perimeterMenuContainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 92%;
+    justify-content: center;
+    align-items: center;
+}
+
+#GroupBox {
+    width: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#GroupBox #unity-text-input {
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    width: 20px;
+    -unity-text-align: middle-center;
+    background-color: rgba(34, 34, 34, 0.84);
+    height: 15px;
+    -unity-font: url('project://database/Assets/UnityUI/Font/futur.ttf?fileID=12800000&guid=39a611f427ece4d4bb11d93160665d92&type=3#futur');
+    -unity-font-definition: none;
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 8px;
+}
+
+#GroupBox #unity-checkmark {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.38);
+}
+
+#junctionToggle VisualElement {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+}
+
+#sidePanel #unity-text-input {
+    background-color: rgba(38, 38, 38, 0.9);
+    color: rgb(255, 255, 255);
+    -unity-text-align: middle-center;
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Light%20Italic%20font.ttf?fileID=12800000&guid=afc0a8040e4cfaf4081aeb188e060c48&type=3#Futura Light Italic font');
+    width: 100%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    -unity-font-definition: none;
+    font-size: 11px;
+    -unity-font-style: bold;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.parameterInput {
+}
+
+.randomToggleInput {
+}
+
+.minmaxInput {
+}
+
+.experimentContainer {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: rgba(26, 26, 26, 0.56);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    max-height: 88%;
+}
+
+.conditionsContainer {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 5px;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+.conditionsButton {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: 100%;
+}
+
+.conditionsButtonSelected {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: 100%;
+}
+
+.conditionsButton:hover {
+    background-color: rgba(255, 255, 255, 0.14);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: 100%;
+}
+
+.conditionsButtonSelected {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: rgb(7, 7, 7);
+}
+
+#conditionBox #unity-low-button {
+    display: none;
+}
+
+#conditionBox #unity-high-button {
+    display: none;
+}
+
+#conditionBox Scroller {
+    display: flex;
+    width: 5%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#conditionBox #unity-slider {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#conditionBox #unity-slider VisualElement {
+    display: flex;
+    width: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#conditionBox #unity-slider #unity-drag-container {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(255, 1, 1, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+#conditionBox #unity-slider #unity-tracker {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#conditionBox #unity-slider #unity-dragger {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#conditionBox #unity-content-container {
+    display: flex;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.incompleteCheckmark {
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-6090568113533005507&guid=6919a86361480074484ca9bc022bc793&type=3#check');
+    width: 20px;
+    height: 20px;
+    -unity-background-image-tint-color: rgb(149, 0, 1);
+}
+
+.completeCheckmark {
+    background-image: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-6090568113533005507&guid=6919a86361480074484ca9bc022bc793&type=3#check');
+    width: 20px;
+    height: 20px;
+    -unity-background-image-tint-color: rgb(0, 149, 2);
+}
+
+.panelContainer {
+    width: 81%;
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(26, 26, 26, 0.56);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    align-items: center;
+}
+
+#visualSettingPanel #unity-low-button {
+    display: none;
+}
+
+#visualSettingPanel #unity-high-button {
+    display: none;
+}
+
+#visualSettingPanel Scroller {
+    display: flex;
+    width: 1%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#visualSettingPanel #unity-slider {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#visualSettingPanel #unity-slider VisualElement {
+    display: flex;
+    width: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#visualSettingPanel #unity-slider #unity-drag-container {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(255, 1, 1, 0);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+#visualSettingPanel #unity-slider #unity-tracker {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#visualSettingPanel #unity-slider #unity-dragger {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#visualSettingPanel #unity-content-container {
+    display: flex;
+    align-items: center;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#wallTextureDropdown {
+    background-color: rgb(0, 255, 250);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 3%;
+    margin-right: 0;
+    margin-top: 0.5%;
+    margin-bottom: 2%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 20%;
+    align-items: stretch;
+    justify-content: flex-start;
+}
+
+#wallTextureDropdown VisualElement {
+    background-color: rgb(255, 255, 255);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: stretch;
+    justify-content: flex-start;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UnityUI/Font/futur.ttf?fileID=12800000&guid=39a611f427ece4d4bb11d93160665d92&type=3#futur');
+    color: rgb(0, 0, 0);
+    -unity-text-align: middle-center;
+}
+
+#ceilingToggle #unity-checkmark {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.92);
+}
+
+#ceilingToggle VisualElement {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+}
+
+#wallHeightContainer #unity-text-input {
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    width: 100%;
+    -unity-text-align: middle-center;
+    background-color: rgba(34, 34, 34, 0.84);
+    height: 100%;
+    -unity-font: url('project://database/Assets/UnityUI/Font/futur.ttf?fileID=12800000&guid=39a611f427ece4d4bb11d93160665d92&type=3#futur');
+    -unity-font-definition: none;
+    color: rgb(255, 255, 255);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    font-size: 8px;
+}
+
+#explicitToggle VisualElement {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    height: 100%;
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 255);
+}

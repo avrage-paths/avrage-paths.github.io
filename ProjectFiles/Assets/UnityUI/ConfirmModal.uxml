@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="overlay" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.71); align-items: center; justify-content: center; display: none;">
+        <ui:VisualElement name="popup" style="background-color: rgb(34, 34, 34); justify-content: center; align-items: center; width: 250px; height: 130px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 9px; border-bottom-left-radius: 9px; border-top-right-radius: 9px; border-bottom-right-radius: 9px; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px;">
+            <ui:Label text="ARE YOU SURE?" display-tooltip-when-elided="true" style="-unity-font: url(&apos;project://database/Assets/UnityUI/Font/FuturaPTHeavy.otf?fileID=12800000&amp;guid=9e55cac572e6f2949b8f3ca0005b8c62&amp;type=3#FuturaPTHeavy&apos;); font-size: 25px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:GroupBox style="flex-direction: row;">
+                <ui:Button text="YES" display-tooltip-when-elided="true" name="confirmModalYesButton" style="background-color: rgb(0, 149, 2); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+                <ui:Button text="NO" display-tooltip-when-elided="true" name="confirmModalNoButton" style="background-color: rgb(149, 0, 2); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

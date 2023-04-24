@@ -1,0 +1,205 @@
+.sidePanel {
+    margin-left: 3%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 90%;
+    width: 20%;
+    background-color: rgb(34, 34, 34);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgb(115, 115, 115);
+    border-right-color: rgb(115, 115, 115);
+    border-top-color: rgb(115, 115, 115);
+    border-bottom-color: rgb(115, 115, 115);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex-wrap: wrap;
+}
+
+#screen #unity-low-button {
+    background-color: rgb(211, 255, 23);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+    visibility: hidden;
+}
+
+#screen #unity-high-button {
+    background-color: rgb(211, 255, 23);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+    visibility: hidden;
+}
+
+#screen Scroller {
+    background-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 3%;
+    visibility: visible;
+    display: flex;
+    margin-left: 0;
+    margin-right: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#screen #unity-slider {
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#screen #unity-slider VisualElement {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: stretch;
+}
+
+#screen #unity-slider #unity-drag-container {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#screen #unity-tracker {
+    border-left-color: rgba(36, 204, 42, 0);
+    border-right-color: rgba(36, 204, 42, 0);
+    border-top-color: rgba(36, 204, 42, 0);
+    border-bottom-color: rgba(36, 204, 42, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#screen #unity-dragger {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.infoGroupBox {
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    white-space: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionLabel {
+    -unity-text-align: upper-center;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Book%20font.ttf?fileID=12800000&guid=444f75cbdfc022942ac8a2d8cb43dee3&type=3#Futura Book font');
+    width: 100%;
+}
+
+.infoBox {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    font-size: 8px;
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dataLabel {
+    align-items: center;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+}
+
+.dataEntry {
+}
+
+#sidePanel > Scroller {
+    background-color: rgba(255, 0, 0, 255);
+    display: none;
+    visibility: hidden;
+}

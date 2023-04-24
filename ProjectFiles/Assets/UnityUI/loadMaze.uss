@@ -1,0 +1,472 @@
+.sidePanel {
+    margin-left: 3%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 90%;
+    width: 20%;
+    background-color: rgb(34, 34, 34);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-left-color: rgb(115, 115, 115);
+    border-right-color: rgb(115, 115, 115);
+    border-top-color: rgb(115, 115, 115);
+    border-bottom-color: rgb(115, 115, 115);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#sidePanel #unity-low-button {
+    background-color: rgb(211, 255, 23);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+    visibility: hidden;
+}
+
+#sidePanel #unity-high-button {
+    background-color: rgb(211, 255, 23);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: none;
+    visibility: hidden;
+}
+
+#sidePanel Scroller {
+    background-color: rgba(255, 255, 255, 0);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 3%;
+    visibility: visible;
+    display: flex;
+    margin-left: 0;
+    margin-right: 3px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#sidePanel #unity-slider {
+    max-width: 100%;
+    min-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#sidePanel #unity-slider #unity-drag-container {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+#sidePanel #unity-slider VisualElement {
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: stretch;
+}
+
+#sidePanel #unity-tracker {
+    border-left-color: rgba(36, 204, 42, 0);
+    border-right-color: rgba(36, 204, 42, 0);
+    border-top-color: rgba(36, 204, 42, 0);
+    border-bottom-color: rgba(36, 204, 42, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#sidePanel #unity-dragger {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.infoGroupBox {
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    white-space: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sectionLabel {
+    -unity-text-align: upper-center;
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UnityUI/Font/Futura%20Book%20font.ttf?fileID=12800000&guid=444f75cbdfc022942ac8a2d8cb43dee3&type=3#Futura Book font');
+    width: 100%;
+}
+
+.infoBox {
+    background-color: rgba(0, 0, 0, 0);
+    align-items: center;
+    font-size: 8px;
+    width: 40%;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.dataLabel {
+    align-items: center;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-bottom-width: 1px;
+}
+
+.dataEntry {
+}
+
+#sidePanel > Scroller {
+    background-color: rgb(255, 0, 0);
+    display: none;
+    visibility: hidden;
+}
+
+.sliderButton {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(34, 34, 34, 0.86);
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+#ScrollContainer #unity-tracker {
+    background-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+#ScrollContainer #unity-dragger {
+    background-color: rgb(26, 26, 26);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-color: rgb(229, 225, 225);
+    border-right-color: rgb(229, 225, 225);
+    border-top-color: rgb(229, 225, 225);
+    border-bottom-color: rgb(229, 225, 225);
+    -unity-background-image-tint-color: rgb(0, 0, 0);
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.sidePanelMinimized {
+    margin-left: 3%;
+    margin-right: 0;
+    margin-top: -39.25%;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    height: 6%;
+    width: 3.5%;
+    background-color: rgb(34, 34, 34);
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+    border-top-right-radius: 11px;
+    border-bottom-right-radius: 11px;
+    border-left-color: rgb(123, 123, 123);
+    border-right-color: rgb(123, 123, 123);
+    border-top-color: rgb(123, 123, 123);
+    border-bottom-color: rgb(123, 123, 123);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    display: none;
+}
+
+.maxButton {
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url('project://database/Assets/UnityUI/noun-menu-5546089-removebg-preview.png?fileID=2800000&guid=6f77a5eb12ccfa14fb8489d0ce4f1de1&type=3#noun-menu-5546089-removebg-preview');
+    width: 20px;
+    height: 20px;
+    background-color: rgba(88, 88, 88, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    display: flex;
+}
+
+.minButton {
+    margin-left: 10px;
+    margin-right: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-image: url('project://database/Assets/UnityUI/noun-menu-5546089-removebg-preview.png?fileID=2800000&guid=6f77a5eb12ccfa14fb8489d0ce4f1de1&type=3#noun-menu-5546089-removebg-preview');
+    width: 20px;
+    height: 20px;
+    background-color: rgba(88, 88, 88, 0);
+    border-left-color: rgba(255, 255, 255, 0);
+    border-right-color: rgba(255, 255, 255, 0);
+    border-top-color: rgba(255, 255, 255, 0);
+    border-bottom-color: rgba(255, 255, 255, 0);
+    display: flex;
+}
+
+.navbar {
+    -unity-text-align: middle-left;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 10%;
+    background-color: rgb(38, 37, 37);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    align-items: center;
+}
+
+.sliderDisplayTextField {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: rgb(31, 31, 31);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(255, 255, 255);
+    -unity-font-definition: none;
+    -unity-font: url('project://database/Assets/UnityUI/Font/futur.ttf?fileID=12800000&guid=39a611f427ece4d4bb11d93160665d92&type=3#futur');
+    -unity-text-align: middle-center;
+    align-items: center;
+    justify-content: center;
+}
+
+#sliderValueDisplay #unity-text-input {
+    background-color: rgba(0, 0, 0, 0);
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    width: 100%;
+    height: 100%;
+    -unity-text-align: middle-center;
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#returnToMainButton:hover {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    flex-direction: row;
+}
+
+.returnButton {
+    height: 10%;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(26, 26, 26);
+    border-right-color: rgb(26, 26, 26);
+    border-top-color: rgb(26, 26, 26);
+    border-bottom-color: rgb(26, 26, 26);
+    flex-direction: row;
+}
+
+#stepsPerSecondInput #unity-text-input {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-bottom-width: 0;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+}

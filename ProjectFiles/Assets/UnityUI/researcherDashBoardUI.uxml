@@ -1,0 +1,22 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UnityUI/researcherDashUSS.uss?fileID=7433441132597879392&amp;guid=ae672dac27fd98146a472822eac99493&amp;type=3#researcherDashUSS" />
+    <ui:GroupBox name="screen" style="width: 100%; height: 100%; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; justify-content: flex-start; color: rgb(255, 255, 255); border-left-width: 2px; border-right-width: 2px; border-top-width: 2px; border-bottom-width: 2px; border-left-color: rgb(75, 75, 75); border-right-color: rgb(75, 75, 75); border-top-color: rgb(75, 75, 75); border-bottom-color: rgb(75, 75, 75); border-top-left-radius: 2px; border-bottom-left-radius: 2px; border-top-right-radius: 2px; border-bottom-right-radius: 2px; flex-direction: row; align-items: center;">
+        <ui:ScrollView name="sidePanel" class="sidePanel">
+            <ui:GroupBox name="MinButton" style="height: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 1%; padding-bottom: 1%; white-space: normal; flex-direction: row;">
+                <ui:VisualElement style="background-image: url(&apos;project://database/Assets/UnityUI/noun-menu-5546089-removebg-preview.png?fileID=2800000&amp;guid=6f77a5eb12ccfa14fb8489d0ce4f1de1&amp;type=3#noun-menu-5546089-removebg-preview&apos;); width: 20px; height: 20px; margin-left: 10px; margin-top: 10px;" />
+            </ui:GroupBox>
+        </ui:ScrollView>
+        <ui:VisualElement style="width: 67%; flex-direction: row-reverse; height: 87%; align-items: flex-end;">
+            <ui:Button text="Abort" display-tooltip-when-elided="true" name="abortButton" style="margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; padding-left: 0; padding-right: 0; padding-top: 0; padding-bottom: 0; background-color: rgb(190, 56, 56); border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); width: 13%; height: 6%; border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; color: rgb(255, 255, 255); -unity-font-definition: none; -unity-font: url(&apos;project://database/Assets/UnityUI/Font/Futura%20Extra%20Black%20font.ttf?fileID=12800000&amp;guid=b4364f214a16d1e4f9c8ed5c4a32fecb&amp;type=3#Futura Extra Black font&apos;);" />
+        </ui:VisualElement>
+    </ui:GroupBox>
+    <ui:VisualElement name="overlay" style="position: absolute; left: 0; top: 0; right: 0; bottom: 0; background-color: rgba(0, 0, 0, 0.71); align-items: center; justify-content: center; display: none;">
+        <ui:VisualElement name="popup" style="background-color: rgb(34, 34, 34); justify-content: center; align-items: center; width: 250px; height: 130px; border-left-color: rgb(255, 255, 255); border-right-color: rgb(255, 255, 255); border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(255, 255, 255); border-top-left-radius: 9px; border-bottom-left-radius: 9px; border-top-right-radius: 9px; border-bottom-right-radius: 9px; border-left-width: 3px; border-right-width: 3px; border-top-width: 3px; border-bottom-width: 3px;">
+            <ui:Label text="ARE YOU SURE?" display-tooltip-when-elided="true" style="-unity-font: url(&apos;project://database/Assets/UnityUI/Font/FuturaPTHeavy.otf?fileID=12800000&amp;guid=9e55cac572e6f2949b8f3ca0005b8c62&amp;type=3#FuturaPTHeavy&apos;); font-size: 25px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+            <ui:GroupBox style="flex-direction: row;">
+                <ui:Button text="YES" display-tooltip-when-elided="true" name="confirmModalYesButton" style="background-color: rgb(0, 149, 2); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+                <ui:Button text="NO" display-tooltip-when-elided="true" name="confirmModalNoButton" style="background-color: rgb(149, 0, 2); border-top-left-radius: 5px; border-bottom-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px;" />
+            </ui:GroupBox>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

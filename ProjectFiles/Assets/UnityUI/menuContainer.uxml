@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="mainMenuUXML" src="project://database/Assets/UnityUI/mainMenuUXML.uxml?fileID=9197481963319205126&amp;guid=b09d480283e492845b65a1f830a576da&amp;type=3#mainMenuUXML" />
+    <ui:Template name="createMazeMenu" src="project://database/Assets/UnityUI/createMazeMenu.uxml?fileID=9197481963319205126&amp;guid=82be0c29309497741b59631ccbb5c538&amp;type=3#createMazeMenu" />
+    <ui:Template name="createExperimentMenu" src="project://database/Assets/UnityUI/createExperimentMenu.uxml?fileID=9197481963319205126&amp;guid=3a81ca1907aaccd4da5141c639ad55aa&amp;type=3#createExperimentMenu" />
+    <ui:Template name="loadExperimentMenu" src="project://database/Assets/UnityUI/loadExperimentMenu.uxml?fileID=9197481963319205126&amp;guid=521df4a9b8b9e4243ae6a79a36724941&amp;type=3#loadExperimentMenu" />
+    <ui:Template name="mazeReplayMenu" src="project://database/Assets/UnityUI/mazePlaybackManu.uxml?fileID=9197481963319205126&amp;guid=531c33604d5f2f64fb0442761239d84e&amp;type=3#mazePlaybackManu" />
+    <ui:Instance template="mainMenuUXML" name="mainMenuUXML" style="flex-grow: 1;" />
+    <ui:Instance template="createMazeMenu" name="createMazeMenu" style="flex-grow: 1; display: none;" />
+    <ui:Instance template="createExperimentMenu" name="createExperimentMenu" style="display: none; flex-grow: 1;" />
+    <ui:Instance template="loadExperimentMenu" name="loadExperimentMenu" style="display: none; flex-grow: 1;" />
+    <ui:Instance template="mazeReplayMenu" name="mazePlaybackMenu" style="display: none; flex-grow: 1;" />
+</ui:UXML>
